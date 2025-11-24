@@ -1,4 +1,10 @@
-The pom.xml file is the Project Object Model (POM) file for a Maven project. It's an XML file that contains project configuration information, including:
+                       pom.xml
+The pom.xml file is the Project Object Model (POM) file for a Maven project. It's an XML file that contains project configuration information
+1. Project metadata: Group ID, artifact ID, version, and packaging type.
+2. Dependencies: List of dependencies required by the project.
+3. Build configuration: Compiler settings, plugins, and other build-related configuration.
+4. Repositories: List of repositories to search for dependencies.
+           uses of pom.xml:
 1. Dependency management: Declares dependencies and their versions.
 2. Build automation: Configures the build process, including compilation, testing, and packaging.
 3. Project configuration: Stores project metadata and configuration.
