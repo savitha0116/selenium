@@ -1,0 +1,49 @@
+                 The working principle of Selenium.
+Selenium follows a client-server architecture based on the JSON Wire Protocol W3C WebDriver protocol
+It allows communication between:
+* Your test script (client)
+* WebDriver (browser driver)
+* Actual Browser (Chrome, Firefox, etc.)
+
+Test Script
+automation code in languages like:
+* Java
+* Python
+* C#
+* JavaScript
+This script uses Selenium libraries (WebDriver API) to send commands such as:
+* driver.get("URL")
+* driver.findElement()
+* element.click()
+
+WebDriver
+* ChromeDriver
+* GeckoDriver (Firefox)
+* EdgeDriver
+| Your Code → WebDriver → Browser |
+
+WebDriver Works:
+ Listens on a port (e.g., localhost:9515)
+ Accepts JSON commands
+ Executes them in the browser
+ Returns responses back to your test script
+
+Browser Layer
+
+The browser exposes a native automation interface.
+The driver uses this interface to:
+* Open pages
+* Click elements
+* Read values
+* Run JavaScript
+* Take screenshots
+Everything happens as if a real user is interacting.
+
+
+Response Back to Your Test Script
+After executing the command, the browser sends the result back to the driver, which sends it to your script.
+Example:
+Command: element.click()
+Response: "status": 0 (success)
+
+
