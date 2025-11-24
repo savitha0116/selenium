@@ -1,0 +1,13 @@
+                                        Java Project vs Maven Project
+
+A Java project is a general term for a project that uses the Java programming language. It can be created and managed using various IDEs like Eclipse, IntelliJ, or NetBeans.
+A Maven project is a specific type of Java project that uses Maven as its build tool. Maven provides a standardized way of managing project dependencies, compiling code, running tests, and packaging the project into a distributableformat.
+
+* Use a Java project when you have a simple project with minimal dependencies.
+* Use a Maven project when you have a complex project with many dependencies, or when you want to leverage Maven's build automation and dependency management features.
+
+
+1. Build Tool:  A Java project can use any build tool, while a Maven project specifically uses Maven.
+2. Project Structure:  Maven projects follow a standardized directory structure, while Java projects can have varying structures.
+3. Dependency Management:  Maven projects use Maven's dependency management system, while Java projects may use other methods.
+4. Configuration:  Maven projects are configured using a pom.xml file, while Java projects may use other configuration files or methods.
